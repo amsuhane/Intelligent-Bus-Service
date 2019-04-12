@@ -30,7 +30,8 @@ def get_bus_info(bus_no):
     data = json.loads(json_str)
     
     no = data["bus" + str(bus_no)]
-    return render_template("bus_info.html", no = no, bus_no = bus_no)
+    imgloc = '/static/bus_' + str(bus_no) + '_loc.png'
+    return render_template("bus_info.html", no = no, bus_no = bus_no, imgloc = imgloc)
     
 @app.route('/location.html')
 def location():
