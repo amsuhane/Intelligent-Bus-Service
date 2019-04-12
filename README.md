@@ -21,3 +21,9 @@ Run `python app.py`
 `python cam_demo.py`
 
 Press `q` to capture the image when the webcam window shows up.
+
+## Run Custom Image Demo
+
+`python custom_image_demo.py`
+
+By default the name of the image must be `test.jpg`

@@ -1,32 +1,20 @@
 import tensorflow as tf 
 import numpy as np 
 import cv2
+import json
 from backend.det import PersonDetector
+import gps
+
+img_name = "test.jpg"
 
 print("Loading model...")
 clf = PersonDetector()
 print("Model loaded")
 
-img = None
-cap = cv2.VideoCapture(0)
-
-while(True):
-    # Capture frame-by-frame
-    ret, frame = cap.read()
-
-    # Display the resulting frame
-    cv2.imshow('Webcam',frame)
-
-    #Wait to press 'q' key for capturing
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        img = frame
-        cv2.destroyAllWindows()
-        break
+img = cv2.imread(img_name,1)
+img_og = img.copy()
 
 img = cv2.resize(img,(1024,725))
-
-print("Received Image")
-
 IMG_W = img.shape[1]
 IMG_H = img.shape[0]
 boxes,scores,classes,num = clf.get_classification(img)
@@ -42,6 +30,16 @@ for i in range(boxes.shape[1]):
 print("---------------------------")
 print("{} Persons Detected".format(persons))
 
-# cv2.imwrite("cam.jpg",img)
-cv2.imshow("IMG",img)
+cv2.namedWindow("Original Image",cv2.WINDOW_NORMAL)
+cv2.namedWindow("Detected",cv2.WINDOW_NORMAL)
+cv2.imshow("Original Image",img_og)
 cv2.waitKey(0)
+cv2.imshow("Detected",img)
+cv2.waitKey(0)
+
+cv2.imwrite("custom_detected.jpg",img)
+
+print("---------------------------")
+print("Getting GPS Data")
+
+gps.get_map_screenshot()
