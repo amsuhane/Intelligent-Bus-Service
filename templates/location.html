@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue darken-1">
+            <a href="#" class="brand-logo">Trip Advisor</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="collection with-header">
+        <li class="collection-header"><h4>Location: {{location_stats}}</h4></li>
+        <li class="collection-item">Number of people: {{number}}</li>
+      </ul>
+    <img class="responsive_img" src="{{ loc_img }}", width="100%">
+
+</body>
+
+</html>
