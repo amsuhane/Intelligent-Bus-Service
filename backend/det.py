@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 class PersonDetector(object):
     def __init__(self):
-        PATH_TO_MODEL = 'model/frozen_inference_graph.pb'
+        PATH_TO_MODEL = '/media/shreyas/Data/sct/project/SCT19/backend/model/frozen_inference_graph.pb'
         self.detection_graph = tf.Graph()
         with self.detection_graph.as_default():
             od_graph_def = tf.GraphDef()
@@ -31,24 +31,24 @@ class PersonDetector(object):
                 feed_dict={self.image_tensor: img_expanded})
         return boxes, scores, classes, num
 
-TEST_IMG_NAME = '../images/2.jpg'
-img = cv2.imread(TEST_IMG_NAME)
-IMG_W = img.shape[1]
-IMG_H = img.shape[0]
+# TEST_IMG_NAME = '../images/2.jpg'
+# img = cv2.imread(TEST_IMG_NAME)
+# IMG_W = img.shape[1]
+# IMG_H = img.shape[0]
 
-clf = PersonDetector()
+# clf = PersonDetector()
 
-boxes,scores,classes,num = clf.get_classification(img)
+# boxes,scores,classes,num = clf.get_classification(img)
 
-# Show the best bounding box
-img = cv2.imread(TEST_IMG_NAME)
-persons = 0
-for i in range(boxes.shape[1]):
-    if scores[0][i] < 0.5 or classes[0][i] != 1:
-        continue
-    persons+=1
-    best_box = boxes[0][i]
-    cv2.rectangle(img,(int(best_box[1]*IMG_W),int(best_box[0]*IMG_H)),(int(best_box[3]*IMG_W),int(best_box[2]*IMG_H)),(0,255,0),3)
+# # Show the best bounding box
+# img = cv2.imread(TEST_IMG_NAME)
+# persons = 0
+# for i in range(boxes.shape[1]):
+#     if scores[0][i] < 0.5 or classes[0][i] != 1:
+#         continue
+#     persons+=1
+#     best_box = boxes[0][i]
+#     cv2.rectangle(img,(int(best_box[1]*IMG_W),int(best_box[0]*IMG_H)),(int(best_box[3]*IMG_W),int(best_box[2]*IMG_H)),(0,255,0),3)
 
-cv2.imshow("IMG",img)
-cv2.waitKey(0)
+# cv2.imshow("IMG",img)
+# cv2.waitKey(0)
