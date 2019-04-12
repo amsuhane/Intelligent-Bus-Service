@@ -7,18 +7,17 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-def get_map_screenshot():
+def get_map_screenshot(image):
     """
     Returns screenshot of whole google map page
     """
-    image = sys.argv[1]
     data = gpsphoto.getGPSData(image)
     Lat, Long = data["Latitude"], data["Longitude"]
     url = "https://www.google.co.in/maps?q=" + str(Lat) + ",+" + str(Long)
     driver = webdriver.Firefox()
     driver.get("http://www.python.org")
-    driver.save_screenshot("map_." + image_name + ".png")
+    driver.save_screenshot("map_." + image.split('/')[-1])
 
 
 if __name__ == "__main__":
-    get_map_screenshot()
+    get_map_screenshot("~/Git/SCT19/static/bus1.jpg")
