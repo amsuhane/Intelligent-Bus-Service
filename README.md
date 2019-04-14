@@ -2,6 +2,22 @@
 
 Soft Computing Tools In Engineering'19 Term Project.
 
+Given a camera feed, count the number of people in a bus using `Faster-RCNN` , get the GPS time-stamp of the picture, and update the user on where the given bus is on a map, and how many people are there in it.
+
+## Results
+
+![Class Detection](custom_detected.jpg)
+
+![Bus Detection](static/bus1_detected.jpg)
+
+![Location](map.png)
+
+## Interface
+
+![Interface Home](static/interface.png)
+
+![Interface Map](static/interface_map.png)
+
 ## Instruction To Run
 
 Add images to `$ROOT/static/` directory.
