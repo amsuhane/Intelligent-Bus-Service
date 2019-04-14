@@ -161,3 +161,107 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
 
+1555096952717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hdn0ZtdVPj0J"
+1555096960483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555096960507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555096960508	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555096969556	Marionette	INFO	Listening on port 46029
+1555096970040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555096974519	Marionette	INFO	Stopped listening on port 46201
+[Parent 11766, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 9541, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 9541, Gecko_IOThread] WARNING: pipe error (90): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1555096981633	Marionette	INFO	Stopped listening on port 46203
+JavaScript warning: https://www.google.co.in/maps?q=22.319977194444444,+87.29842888888889 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.319977194444444,+87.29842888888889 line 1461 > scriptElement, line 3098: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.319977194444444,+87.29842888888889 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.319977194444444,+87.29842888888889 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.319977194444444,+87.29842888888889 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.319977194444444,+87.29842888888889 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+[Parent 11766, Gecko_IOThread] WARNING: pipe error (86): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 11766, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1555097000604	Marionette	INFO	Stopped listening on port 46029
+1555124734695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z5LO50ZhZ365"
+1555124738778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555124738778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555124738779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555124744305	Marionette	INFO	Listening on port 39345
+1555124744342	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3933, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+JavaScript warning: https://www.google.co.in/maps?q=22.31572088888889,+87.31090969444445 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.31572088888889,+87.31090969444445 line 1461 > scriptElement, line 3098: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.31572088888889,+87.31090969444445 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.31572088888889,+87.31090969444445 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.31572088888889,+87.31090969444445 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.31572088888889,+87.31090969444445 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.31572088888889,+87.31090969444445 line 1461 > scriptElement, line 3117: Error: WebGL warning: copyTexSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555127821035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.B0BxsH72swG4"
+1555127821350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555127821350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555127821350	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555127824204	Marionette	INFO	Listening on port 46291
+1555127824249	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6493, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3098: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3117: Error: WebGL warning: copyTexSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+[Parent 6493, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 6493, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1555127842109	Marionette	INFO	Stopped listening on port 46291
+[Parent 3933, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 3933, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1555127846529	Marionette	INFO	Stopped listening on port 39345
+1555133067958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iQXg5H5BL9JA"
+1555133068196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555133068197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555133068197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555133070422	Marionette	INFO	Listening on port 34173
+1555133070464	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9663, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3098: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315833333333334,+87.31083333333333 line 1461 > scriptElement, line 3117: Error: WebGL warning: copyTexSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+[Parent 9663, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 9663, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1555133081419	Marionette	INFO	Stopped listening on port 34173
+1555136762184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w0qDVpjTxVSK"
+1555136762612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555136762612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555136762613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555136764958	Marionette	INFO	Listening on port 34751
+1555136764997	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11873, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+JavaScript warning: https://www.google.co.in/maps?q=22.315708583333333,+87.3108955 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315708583333333,+87.3108955 line 1461 > scriptElement, line 3098: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315708583333333,+87.3108955 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315708583333333,+87.3108955 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315708583333333,+87.3108955 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315708583333333,+87.3108955 line 1461 > scriptElement, line 3099: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?q=22.315708583333333,+87.3108955 line 1461 > scriptElement, line 3117: Error: WebGL warning: copyTexSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 11873, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 11873, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-jjM0Oy/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1555137489169	Marionette	INFO	Stopped listening on port 34751
