@@ -2,6 +2,18 @@
 
 Soft Computing Tools In Engineering'19 Term Project.
 
+<b>Team Members : </b>
+
+Shreyas Kowshik (17MA20039)
+
+Ayush Suhane (17MA20005)
+
+Siddharth Lal (17MA20055)
+
+Piyush Premchand Ranjan (17IM10012)
+
+Saksham (17MA20035)
+
 Given a camera feed, count the number of people in a bus using `Faster-RCNN` , get the GPS time-stamp of the picture, and update the user on where the given bus is on a map, and how many people are there in it.
 
 ## Results
