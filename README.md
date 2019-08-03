@@ -16,6 +16,8 @@ Saksham (17MA20035)
 
 Given a camera feed, count the number of people in a bus using `Faster-RCNN` , get the GPS time-stamp of the picture, and update the user on where the given bus is on a map, and how many people are there in it.
 
+<b> Link To Slides : </b> https://drive.google.com/file/d/1kCruzdLKiJjc48_8siNZbc6ogfXzxk0Q/view?usp=sharing
+
 ## Results
 
 ![Class Detection](custom_detected.jpg)
